@@ -12,5 +12,13 @@ export const validate = (data: User) => {
     errors.name = 'Name is required';
   }
 
+  if (!data.email) {
+    errors.email = 'Email is required';
+  }
+
+  if (!data.agree) {
+    errors.agree = 'You need to agree with terms';
+  }
+
   return errors;
 }
