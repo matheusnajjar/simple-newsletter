@@ -6,6 +6,8 @@ A straightforward and efficient newsletter subscription application built with m
 
 - Subscription form for users to sign up for the newsletter
 - Simple and clean user interface
+- Built with TypeScript for type safety and maintainability
+- Styled with Tailwind CSS for rapid and responsive design
 
 ## Components
 
